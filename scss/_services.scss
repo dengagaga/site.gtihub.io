@@ -1,0 +1,24 @@
+.services {
+    &-right {
+        width: 600px;
+        &-top {
+            margin-bottom: 37px;
+        }
+        &-bot a{
+            color: #004685;
+        }
+        &-bot strong{
+            color: #D30531;
+            font-weight: bold;
+        }
+    }
+    &-left {
+        width: 320px;
+        height: 320px;
+    }
+    &-title {
+        font-size: 25px;
+        font-weight: 600;
+        margin-bottom: 22px;
+    }
+}

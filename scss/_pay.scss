@@ -1,0 +1,32 @@
+.pay-link {
+    padding-top: 60px;
+    padding-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    &-text {
+        font-size: 36px;
+        font-weight: 700;
+        margin-bottom: 16px;
+    }
+}
+
+.link-all {
+    max-width: 550px;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 28px;
+    align-items: center;
+    &-item {
+        color: #004685;
+        font-size: 20px;
+        border-bottom: 1px dotted #004685
+    }
+    &-item:hover {
+        color: #569DDC;
+    }
+    &-text {
+        font-weight: 600;
+    }
+}

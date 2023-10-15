@@ -1,0 +1,40 @@
+.penalties {
+    padding-bottom: 60px;
+    padding: 0px 10px 60px 10px;
+    &-all {
+        display: flex;
+        gap: 40px;
+    }
+    &-left {
+        width: 600px;
+        &-top {
+            margin-bottom: 37px;
+            
+        }
+        &-bot {
+
+        }
+        &-bot strong{
+            color: #D30531;
+            font-weight: bold;
+        }
+    }
+    &-title {
+        font-size: 25px;
+        font-weight: 600;
+        margin-bottom: 22px;
+    }
+    &-right {
+        width: 320px;
+        height: 320px;
+    }
+}
+
+hr {
+    border: 0;
+    clear:both;
+    display:block;
+    width: 100%;
+    background-color:rgb(212 224 235);
+    height: 1px;
+}

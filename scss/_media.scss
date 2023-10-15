@@ -1,0 +1,392 @@
+@media (max-width: 1024px) {
+    .header-mid-inp {
+        width: 600px;
+        height: 50px;
+
+    }
+    .header-mid-btn {
+        height: 50px;
+        width: 120px;
+        font-size: 22px;
+    }
+}
+@media (max-width: 799px) {
+    .all-none {
+        display: none;
+    }
+    .header-mid-title {
+        text-align: center;
+    }
+    .menu {
+        position: relative;
+        border: none;
+        width: 30px;
+        height: 24px;
+        z-index: 10;
+        cursor: pointer;
+        order: 2;
+    }
+    .burger {  
+       left: 100%;
+    }
+    .active {
+        left: 63vw;
+        
+    }
+    .pay-link-text {
+        display: none;
+    }
+    .pay-link-text.none {
+        display: block;
+        margin-bottom: 30px;
+        font-size: 34px;
+    }
+    .form {
+        position: relative;
+    }
+    .btn-n {
+        position: absolute;
+        right: 0px;
+        width: 60px;
+        height: 50px;
+        &:hover svg path {
+            fill: #569DDC;
+        }
+    }
+    .btn-n.none {
+        display: block;
+    }
+    .link-all {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .mobile-link {
+        display: flex;
+        width: 550px;
+        justify-content: space-between;
+        align-items: center;
+        & div {
+            display: flex;
+            gap: 20px;
+            align-items: center;
+        }
+    }
+    .section-nones {
+        display: block;
+        text-align: left;
+        padding-bottom: 30px;
+    }
+    .svg-mobile.none {
+        display: block;
+    }
+    .img-mobile.none{
+        display: block;
+    }
+    .hr-mob {
+        display: block;
+    }
+    .section-none {
+        display: none !important;
+    }
+    .us-partner-all {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+        
+    }
+    .penalties-left {
+        max-width: 500px;
+    }
+    .court-right {
+        max-width: 500px;
+    }
+    .taxes-left {
+        max-width: 500px;
+    }
+    .services-right {
+        max-width: 500px;
+
+    }
+    #taxes1 {
+        padding-left: 20px;
+        padding-right: 10px;
+    }
+    #court1 {
+        padding-left: 20px;
+        padding-right: 10px;
+    }
+    .penalties {
+        padding-left: 20px;
+    }
+    #services1 {
+        padding-left: 20px;
+        padding-right: 10px;
+    }
+    .dn {
+        display: none;
+    }
+    .us-title {
+        font-size: 34px;
+    }
+    .footer {
+        flex-direction: column;
+        padding: 20px;
+        gap: 17px;
+    }
+    
+}
+@media (max-width: 710px) {
+    .active {
+        left: 58vw;
+        
+    }
+}
+@media (max-width: 650px) {
+    .header-mid-inp {
+        width: 500px;
+        height: 40px;
+    }
+    .btn-n {
+        right: 10px;
+        width: 50px;
+    }
+    .header-mid-title {
+        font-size: 26px;
+    }
+    .pay-link-text.none {
+        font-size: 26px;
+        text-align: center;
+    }
+    .us-title {
+        font-size: 26px;
+    }
+    .mobile-link {
+        max-width: 500px;
+    }
+    .header-mid-text {
+        max-width: 350px;
+        font-size: 14px;
+    }
+    .link-all-item {
+        font-size: 16px;
+    }
+    .active {
+        left: 55vw;
+        
+    }
+}
+@media (max-width: 610px) {
+    .active {
+        left: 52vw;
+        
+    }
+    .mobile-link {
+        padding-left: 20px;
+    }
+}
+@media (max-width: 540px) {
+    .active {
+        left: 46vw;
+        
+    }
+
+    .pay-link-text.none {
+        text-align: center;
+        
+    }
+}
+@media (max-width: 525px) {
+    .logo {
+        max-width: 70%;
+    }
+    .menu {
+        width: 15px;
+    }
+    .menu-span {
+        width: 25px;
+    }
+    .form {
+        max-width: 400px;   
+    }
+    .header-mid-inp {
+        max-width: 400px;
+        height: 40px;
+    }
+    .mobile-link {
+        max-width: 450px;
+    }
+    .penalties-left {
+        max-width: 400px;
+    }
+    .court-right {
+        max-width: 400px;
+    }
+    .taxes-left {
+        max-width: 400px;
+    }
+    .services-right {
+        max-width: 400px;
+
+    }
+    .active {
+        left: 44vw;
+        
+    }
+}
+@media (max-width: 470px) {
+    .active {
+        left: 37vw;
+        
+    }
+    .mobile-link {
+        max-width: 350px;
+    }
+    .header-mid-inp {
+        max-width: 350px;
+        height: 30px;
+    }
+    .btn-n {
+        right: 10px;
+        width: 40px;
+    }
+    .form {
+        max-width: 350px;
+    }
+    .header-mid-text {
+        max-width: 300px;
+        font-size: 12px;
+    }
+    .penalties-left {
+        max-width: 350px;
+    }
+    .court-right {
+        max-width: 350px;
+    }
+    .taxes-left {
+        max-width: 350px;
+    }
+    .services-right {
+        max-width: 350px;
+
+    }
+    .modal_box {
+        box-shadow: 1px 0px 8px 10px rgba(34, 60, 80, 0.2);
+        margin: 0px 0px;
+        padding: 40px;
+        background-color: white;
+        transition: all 0.5s;
+        transform: scale(0);
+        width: 100vw;
+        height: 100vh;
+    }
+
+    
+}
+@media (max-width: 430px) {
+    .header-mid-title {
+        font-size: 20px;
+    }
+    .pay-link-text.none {
+        font-size: 20px;
+        text-align: center;
+
+    }
+    .us-title {
+        font-size: 20px;
+    }
+    .footer p {
+        font-size: 12px;
+    }
+    .active {
+        left: 31vw;
+        
+    }
+    
+}
+@media (max-width: 380px) {
+    .active {
+        left: 22vw;
+        
+    }
+    .mobile-link {
+        max-width: 320px;
+    }
+    .header-mid-inp {
+        max-width: 320px;
+        height: 20px;
+    }
+    .btn-n {
+        right: 10px;
+        width: 40px;
+    }
+    .form {
+        max-width: 320px;
+    }
+    .header-mid-text {
+        max-width: 300px;
+        font-size: 12px;
+    }
+    .penalties-left {
+        max-width: 300px;
+    }
+    .court-right {
+        max-width: 300px;
+    }
+    .taxes-left {
+        max-width: 300px;
+    }
+    .services-right {
+        max-width: 300px;
+
+    }
+    .modal_box {
+        margin: 0px 0px;
+        padding: 30px;
+        width: 100vw;
+        height: 100vh;
+    }
+    .modal_box-inp {
+        width: 280px;
+    }
+    .modal_box-btn {
+        width: 280px;
+    }
+}
+@media (max-width: 350px) {
+    .active {
+        left: 22vw;
+        
+    }
+    .mobile-link {
+        max-width: 310px;
+    }
+    .header-mid-inp {
+        max-width: 310px;
+        height: 20px;
+    }
+    .btn-n {
+        right: 10px;
+        width: 40px;
+    }
+    .form {
+        max-width: 310px;
+    }
+    .header-mid-text {
+        max-width: 300px;
+        font-size: 12px;
+    }
+    .penalties-left {
+        max-width: 300px;
+    }
+    .court-right {
+        max-width: 300px;
+    }
+    .taxes-left {
+        max-width: 300px;
+    }
+    .services-right {
+        max-width: 300px;
+
+    }
+}

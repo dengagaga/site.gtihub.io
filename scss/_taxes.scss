@@ -1,0 +1,25 @@
+.taxes {
+    &-left {
+        width: 600px;
+        &-top {
+            margin-bottom: 37px;
+            
+        }
+        &-bot {
+
+        }
+        &-bot strong{
+            color: #D30531;
+            font-weight: bold;
+        }
+    }
+    &-title {
+        font-size: 25px;
+        font-weight: 600;
+        margin-bottom: 22px;
+    }
+    &-right {
+        width: 320px;
+        height: 320px;
+    }
+}
